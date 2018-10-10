@@ -56,4 +56,8 @@
    <url-pattern>/slack-global-settings/admin</url-pattern>
   </servlet>
 
+  <rest key="slack-rest" path="/stash2slack" version="1.0">
+    <description>Stash2Slack Rest API</description>
+  </rest>
+
 </atlassian-plugin>
